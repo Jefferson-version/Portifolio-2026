@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jefferson Assunção — Dev & Infra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap&subset=latin,latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── CURSOR ─── -->
+  <div id="cursor">
+    <svg width="30" height="34" viewBox="0 0 30 34" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="cg-a" x1="0" y1="0" x2="0.6" y2="1">
+          <stop offset="0%"   stop-color="#D8FF72"/>
+          <stop offset="50%"  stop-color="#A8FF3E"/>
+          <stop offset="100%" stop-color="#72D400"/>
+        </linearGradient>
+        <linearGradient id="cg-b" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%"   stop-color="#62B800"/>
+          <stop offset="100%" stop-color="#2A5200"/>
+        </linearGradient>
+        <linearGradient id="cg-c" x1="0" y1="0" x2="0.5" y2="1">
+          <stop offset="0%"   stop-color="#3E8000"/>
+          <stop offset="100%" stop-color="#132800"/>
+        </linearGradient>
+      </defs>
+      <polygon points="1,1 1,21 9,14"  fill="url(#cg-a)"/>
+      <polygon points="1,1 17,17 9,14" fill="url(#cg-b)"/>
+      <polygon points="1,21 7,30 9,14" fill="url(#cg-c)"/>
+      <ellipse cx="4.5" cy="6" rx="1.8" ry="4.5" fill="rgba(255,255,255,0.38)" transform="rotate(-8,4.5,6)"/>
+      <circle  cx="1.5" cy="1.5" r="1" fill="rgba(255,255,255,0.55)"/>
+    </svg>
+  </div>
+
+  <!-- ─── NAV ─── -->
+  <nav id="nav">
+    <a href="#" class="nav-logo"><em>//</em> jefferson.dev</a>
+    <ul>
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#stack">stack</a></li>
+      <li><a href="#contato">contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <canvas id="wave-canvas"></canvas>
+    <div class="wrap hero-wrap">
+      <p class="hero-tag">// Junior FullStack Developer</p>
+      <h1 class="hero-name">
+        Jefferson<br>
+        <span class="dim">Assunção.</span>
+      </h1>
+      <p class="hero-sub">
+        Gestor de TI com trajetória em desenvolvimento de sistemas internos, Liderança de equipes,
+        infraestrutura e integração de plataformas. Construo ferramentas que resolvem problemas reais.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projetos" class="btn-p">Ver projetos →</a>
+        <a href="#contato"  class="btn-g">Entrar em contato</a>
+      </div>
+    </div>
+    <div class="status">
+      <span class="dot"></span>
+      Cuiabá, MT — Brasil
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <!-- ─── SOBRE ─── -->
+  <section id="sobre">
+    <div class="wrap">
+      <p class="label r"><em>01</em> sobre</p>
+      <div class="sobre-grid">
+
+        <div class="r">
+          <h2 class="sobre-h">
+            Infra na veia,<br>
+            <span class="a">código nas mãos.</span>
+          </h2>
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-n">4<em>+</em></div>
+              <div class="stat-l">anos em TI</div>
+            </div>
+            <div class="stat">
+              <div class="stat-n">10<em>+</em></div>
+              <div class="stat-l">VMs gerenciadas</div>
+            </div>
+            <div class="stat">
+              <div class="stat-n">3</div>
+              <div class="stat-l">sistemas entregues</div>
+            </div>
+            <div class="stat">
+              <div class="stat-n">∞</div>
+              <div class="stat-l">cafés consumidos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sobre-body r d1">
+          <p>
+            Gestor de TI na <strong>Ginco Urbanismo</strong>, em Cuiabá — onde Lidero uma equipe de Tecnologia, com atuação em 
+            infraestrutura, Hyper-V, segurança, helpdesk e o desenvolvimento de ferramentas internas.
+            Minha rotina mistura administração / Infra / Liderança e aos poucos implementando a escrita de código para automação de processos.
+          </p>
+          <p>
+            Desenvolvi alguns sistemas completos do zero: o <strong>Ginco Flow</strong>, plataforma de
+            workflows com integração ao ERP UAU; o <strong>App Financeiro</strong>, uma solução
+            full-stack de gestão pessoal; e o <strong>Painel TV</strong>, dashboard em tempo real
+            para exibição corporativa.
+          </p>
+          <p>
+            Minha trajetória caminha cada vez mais em direção ao desenvolvimento de software —
+            onde a profundidade técnica de infra encontra a expressividade do código.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <!-- ─── PROJETOS ─── -->
+  <section id="projetos">
+    <div class="wrap">
+      <p class="label r"><em>02</em> projetos</p>
+      <div class="projects r">
+
+        <div class="proj">
+          <span class="proj-n">01</span>
+          <div class="proj-info">
+            <div class="proj-title">Ginco Flow</div>
+            <div class="proj-desc">
+              Plataforma interna de workflows para substituir o Fluig. Solicitações de pagamento
+              com preenchimento automático via ERP UAU, aprovação multi-etapas, notificações em
+              HTML e módulos de férias e distrato.
+            </div>
+          </div>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">React</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">JWT</span>
+            <span class="tag">Nodemailer</span>
+            <span class="tag">mssql</span>
+          </div>
+        </div>
+
+        <div class="proj">
+          <span class="proj-n">02</span>
+          <div class="proj-info">
+            <div class="proj-title">App Financeiro</div>
+            <div class="proj-desc">
+              Aplicação full-stack de gestão financeira pessoal. Controle de lançamentos,
+              parcelamentos inteligentes, gráficos e acesso mobile via Cloudflare Tunnel.
+              Frontend no Netlify, backend local com XAMPP.
+            </div>
+          </div>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Vanilla JS</span>
+            <span class="tag">Netlify</span>
+            <span class="tag">Cloudflare</span>
+          </div>
+        </div>
+
+        <div class="proj">
+          <span class="proj-n">03</span>
+          <div class="proj-info">
+            <div class="proj-title">Painel TV</div>
+            <div class="proj-desc">
+              Dashboard informativo em tempo real para exibição em TV corporativa. Projeto de
+              portfólio desenvolvido sob a marca Beta Soluções, com acesso remoto e suporte a
+              PWA mobile.
+            </div>
+          </div>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">Cloudflare</span>
+            <span class="tag">PWA</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <!-- ─── STACK ─── -->
+  <section id="stack">
+    <div class="wrap">
+      <p class="label r"><em>03</em> stack</p>
+      <div class="stack-grid">
+
+        <div class="stack-item r">
+          <div class="stack-cat">backend</div>
+          <div class="stack-name">Node.js</div>
+          <div class="stack-detail">Express, REST APIs, JWT Auth</div>
+          <div class="stack-used"><span>usado em →</span> Ginco Flow · App Financeiro · Painel TV</div>
+        </div>
+        <div class="stack-item r d1">
+          <div class="stack-cat">frontend</div>
+          <div class="stack-name">React</div>
+          <div class="stack-detail">Vite, hooks, componentes</div>
+          <div class="stack-used"><span>usado em →</span> Ginco Flow</div>
+        </div>
+        <div class="stack-item r d2">
+          <div class="stack-cat">banco de dados</div>
+          <div class="stack-name">MySQL</div>
+          <div class="stack-detail">DBeaver, mssql, SQL Server</div>
+          <div class="stack-used"><span>usado em →</span> Ginco Flow · App Financeiro</div>
+        </div>
+        <div class="stack-item r d3">
+          <div class="stack-cat">linguagens</div>
+          <div class="stack-name">JavaScript</div>
+          <div class="stack-detail">ES6+, Vanilla JS, HTML/CSS</div>
+          <div class="stack-used"><span>usado em →</span> todos os projetos</div>
+        </div>
+        <div class="stack-item r">
+          <div class="stack-cat">infraestrutura</div>
+          <div class="stack-name">Hyper-V</div>
+          <div class="stack-detail">Windows Server 2022, 10+ VMs</div>
+          <div class="stack-used"><span>usado em →</span> Infra Ginco Urbanismo</div>
+        </div>
+        <div class="stack-item r d1">
+          <div class="stack-cat">cloud</div>
+          <div class="stack-name">Azure / AWS / OCI / Oracle Cloud</div>
+          <div class="stack-detail">Avaliação e planejamento de migração</div>
+          <div class="stack-used"><span>usado em →</span> Avaliação de migração Ginco</div>
+        </div>
+        <div class="stack-item r d2">
+          <div class="stack-cat">deploy</div>
+          <div class="stack-name">Netlify · Render</div>
+          <div class="stack-detail">Cloudflare Tunnel, Vite build</div>
+          <div class="stack-used"><span>usado em →</span> App Financeiro · Painel TV</div>
+        </div>
+        <div class="stack-item r d3">
+          <div class="stack-cat">plataformas </div>
+          <div class="stack-name">Fluig · GLPI · ERP UAU SENIOR · IterUp · NextIp · Capys </div>
+          <div class="stack-detail">Workflow, helpdesk, ERP, Telefonia, Chatbots</div>
+          <div class="stack-used"><span>usado em →</span> Ambiente Ginco Urbanismo</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="div">
+
+  <!-- ─── CONTATO ─── -->
+  <section id="contato">
+    <div class="wrap">
+      <p class="label r"><em>04</em> contato</p>
+      <h2 class="contato-h r">
+        Vamos<br><span class="a">conversar.</span>
+      </h2>
+      <p class="contato-sub r d1">
+        Aberto a conversas sobre desenvolvimento, infraestrutura, projetos e
+        oportunidades de colaboração. Sinta-se à vontade para entrar em contato!
+      </p>
+      <!-- <div class="clinks r d2">
+        <a href="mailto:jefferson@email.com" class="clink">
+          <span>jeffferson.dev@email.com</span>
+          <span class="arr">↗</span>
+        </a> -->
+        <a href="https://github.com/jefferson-version" class="clink" target="_blank" rel="noopener">
+          <span>GitHub</span>
+          <span class="arr">↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/jeffersonassuncao/" class="clink" target="_blank" rel="noopener">
+          <span>LinkedIn</span>
+          <span class="arr">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="fc">© 2025 Jefferson Assunção <em>—</em> Cuiabá, MT</p>
+    <p class="fc">feito com HTML <em>·</em> CSS <em>·</em> JS</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
