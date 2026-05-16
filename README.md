@@ -240,7 +240,10 @@ Para conectar com GitHub e atualizar automaticamente a cada `git push`:
 5. `Publish directory`: deixa vazio ou `.`
 
 ---
+---
+
 
 ## 📝 Licença
 
-Livre para uso pessoal. Se usar como base pro seu portfólio, deixa uma ⭐ no repo!
+Livre para uso pessoal. Se usar como base pro seu portfólio, deixa uma ⭐ no repo e tamo junto Amigão!
+> Desenvolvido com auxílio de IA — [Claude](https://claude.ai) (Anthropic)
